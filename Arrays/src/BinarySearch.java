@@ -29,22 +29,6 @@ public class BinarySearch {
     }
 
 
-//    public static void main(String[] args) {
-//        int[] numbers = {10, 20, 50000, 500000000, 50, 2, 4};
-//
-//        // Sort the array
-//        Arrays.sort(numbers);
-//
-//        System.out.println("Sorted array: " + Arrays.toString(numbers));
-//        BinarySearch BinarySearchObj=new BinarySearch();
-//        int target = 4;
-//        int result = BinarySearchObj.binarySearch(numbers, target);
-//
-//        if (result != -1) {
-//            System.out.println("Element found at index: " + result);
-//        } else {
-//            System.out.println("Element not found");
-//        }
-//    }
+
 
 }
