@@ -8,8 +8,11 @@ public class Main {
     public static void main(String[] args) {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
-        int[] numbers={2,4,6,8,10};
+        int[] numbers={2,40,6,8,100};
         MaxSubArray maxSubArray=new MaxSubArray();
+
         maxSubArray.findMaxSubArray(numbers);
+        maxSubArray.findMaxSubArrayUsingPrefixSum(numbers);
+        maxSubArray.findMaxSubArrayUsingKadaneAlgo(numbers);
     }
 }
