@@ -48,7 +48,7 @@ public class TrappingRainWater {
             totalTrappedWater+=trappedRainwaterAtPosition;
         }
 
-        // Print the left and right maximum heights arrays
+
         printLeftMaxHeights(leftMaxHeights);
         printRightMaxHeights(rightMaxHeights);
 
